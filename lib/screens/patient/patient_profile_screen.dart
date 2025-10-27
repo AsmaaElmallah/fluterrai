@@ -220,7 +220,7 @@ class PatientProfileScreen extends StatelessWidget {
             ),
             const SizedBox(height: 16),
 
-            // Settings
+            // Settings (بعد إزالة Privacy & Security و Edit Profile)
             Card(
               child: Column(
                 children: [
@@ -237,40 +237,6 @@ class PatientProfileScreen extends StatelessWidget {
                       ),
                     ),
                     title: const Text('Notifications'),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () {},
-                  ),
-                  const Divider(height: 1),
-                  ListTile(
-                    leading: Container(
-                      padding: const EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        color: AppTheme.cyan50,
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: const Icon(
-                        Icons.security,
-                        color: AppTheme.cyan600,
-                      ),
-                    ),
-                    title: const Text('Privacy & Security'),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () {},
-                  ),
-                  const Divider(height: 1),
-                  ListTile(
-                    leading: Container(
-                      padding: const EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        color: AppTheme.teal50,
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: const Icon(
-                        Icons.edit,
-                        color: AppTheme.teal600,
-                      ),
-                    ),
-                    title: const Text('Edit Profile'),
                     trailing: const Icon(Icons.chevron_right),
                     onTap: () {},
                   ),

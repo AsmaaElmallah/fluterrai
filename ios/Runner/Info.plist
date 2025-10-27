@@ -45,5 +45,22 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+    <string>We use your location to help caregivers track and assist you.</string>
+
+
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>whatsapp</string>
+      <string>sms</string>
+    </array>
+
+
 </dict>
+
+
+
 </plist>

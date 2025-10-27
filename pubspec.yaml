@@ -9,35 +9,38 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  url_launcher: ^6.3.0
-  
+  # youtube_player_flutter: ^8.1.2
+  youtube_player_iframe: ^5.0.0
+
   # UI Components
   cupertino_icons: ^1.0.6
-  
+
   # State Management
   provider: ^6.1.1
-  
+
   # Icons
   font_awesome_flutter: ^10.6.0
-  
+
   # Navigation
   go_router: ^12.1.3
-  
+
   # HTTP & API
   http: ^1.1.2
-  
+
   # Local Storage
   shared_preferences: ^2.2.2
-  
-  # Maps & Location
-  google_maps_flutter: ^2.5.0
-  geolocator: ^10.1.0
-  
-  # Charts
-  fl_chart: ^0.65.0
-  
+
   # Image handling
   cached_network_image: ^3.3.1
+
+  # Charts
+  fl_chart: ^0.65.0
+
+  # Maps & Location
+  url_launcher: ^6.3.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.0
+  google_maps_flutter: ^2.5.0
 
 dev_dependencies:
   flutter_test:
@@ -46,12 +49,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  
-  # Assets
   # assets:
   #   - images/
-  
-  # Fonts
   # fonts:
   #   - family: Custom
   #     fonts:
